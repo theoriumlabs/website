@@ -1,0 +1,21 @@
+<section>
+  <h2 class="text-xl font-semibold text-gray-900 my-4">Introduction</h2>
+  <p class="my-4">
+    Theorium is a Zero-Knowledge Scalable Transparent Argument of Knowledge (zk-STARK) based payment system.
+  </p>
+  <p class="my-4"><b>Zero-Knowledge:</b> All of the sender, the receiver, the amount being sent, the set of transactions belonging to an account remain hidden.
+    The sender will not know when a their outgoing transactions are spent. The only thing revealed during operations is the fee amount of a transaction. These properties persist even when there is only a singular transaction.</p>
+  <p class="my-4"><b>Trasparent:</b> Contrary to SNARKs, no trusted setup is needed, only verifiable randomness is used.</p>
+  <p class="my-4"><b>Succint:</b> A single file of few hundred <em>kilobytes!</em> can attest for the validity of the whole state and all state updates' validity beforehand.</p>
+  <p class="my-4">
+    With this framework one user can convince another that they have correctly executed a number of computer instructions (on secret input) that yielded a given result. One common example is 
+    the hash preimage, the user generates a proof with the program <code class="text-sm bg-slate-100 p-1 rounded-md">hash(input) == output</code> which convinces the other party that they indeed know the proper input.
+  </p>
+  <p class="my-4">The whole chain is operated by a single pool <em>(central)</em>. No consensus, no staking-based voting, no proof-of-work, no decentralization. With that being said, since everything is zero-knowledge the central has no way of knowing who sends how much and to whom.
+    Thus the only way for branching to occur is if the central's private key is leaked.
+  </p>
+  <p class="my-4">We, of course, do not discard the possibility of adding a consensus mechanism in the future if it can keep up with the target TPS (transactions-per-second), prevent fee-explosion and does not introduce too much wasteful computation.</p>
+  <p class="my-4">New coins are minted by central and its rate is upper bound by the protocol. These new funds will be distributed for formalizing mathematical theorems or for contributing to the project.</p>
+
+  <p class="my-4">The goal of this project is to provide a secure payment system not to act as a kind of speculative investment. It is encouraged to only store sensible funds as theorium, the same way you wouldn't store large sums of money under your pillow.</p>
+</section>

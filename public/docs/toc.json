@@ -1,2 +1,52 @@
 [
+  {
+    "id": "introduction",
+    "title": "Introduction",
+    "short": "",
+    "children": []
+  },
+  {
+    "id": "getting-started",
+    "title": "Getting Started",
+    "short": "",
+    "children": [
+
+    ]
+  },
+  {
+    "id": "earning-coins", 
+    "title": "Earning Coins",
+    "short": "How to get coins",
+    "children": [
+      {
+        "id": "formalizing-mathematics",
+        "title": "Formalizing mathematics",
+        "children": []
+      },
+      {
+        "id": "doing-rollup",
+        "title": "Rollup calculation",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "architecture", 
+    "title": "Architecture",
+    "short": "How does it work?",
+    "children": [
+      {
+        "id": "finite-fields",
+        "title": "Finite fields",
+        "short": "",
+        "children": []
+      },
+      {
+        "id": "poseidon2",
+        "title": "Poseidon2",
+        "short": "AIR-ready hash",
+        "children": []
+      }
+    ]
+  }
 ]
